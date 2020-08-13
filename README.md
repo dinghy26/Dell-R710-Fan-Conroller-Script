@@ -1,4 +1,4 @@
-# Dell R770 IPMI Fan Controller
+# Dell R710 IPMI Fan Controller
 
 **Summary**
 This Py script is use to take control of the fan speed of the R710 server. This code only been tested in The R710.
