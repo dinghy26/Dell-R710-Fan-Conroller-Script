@@ -29,7 +29,7 @@ public class DellFanController {
     public final static int MAX_TEMP = 32;
     public final static int MIN_TEMP = 24;
     public final static String REF_FILE = "dellR710.txt";
-    public final static String SERVER_LOGIN = "ipmitool -I lanplus -H 10.225.246.21 -U root -P mare ";
+    public final static String SERVER_LOGIN = "ipmitool -I lanplus -H SERVER_IP -U SERVER_USERNAME -P SERVER_PASSWORD ";
     public final static String SERVER_GET_DATA = "sdr entity 7";
     public final static String MANUAL_MODE = "raw 0x30 0x30 0x01 0x00";
     public final static String AUTO_MODE = "raw 0x30 0x30 0x01 0x01";
